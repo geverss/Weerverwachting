@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta name="theme-color" content="#0f172a">
-  <meta name="description" content="Duikplanner Oosterschelde">
+  <meta name="description" content="Sportplanner">
   <title>Oosterschelde Duikplanner</title>
   
   <link rel="manifest" href="manifest.json">
@@ -152,11 +152,11 @@
 
   <main class="container">
     <header>
-      <h1>Oosterschelde Duikplanner</h1>
+      <h1>Sportplanner</h1>
     </header>
 
     <div class="picker-group">
-      <label for="dive-date">Duikdatum selecteren</label>
+      <label for="dive-date">Datum selecteren</label>
       <input type="date" id="dive-date">
     </div>
 
@@ -221,15 +221,15 @@
 
       outputContent.innerHTML = `
         <ul class="data-list">
-          <li>* <strong>Datum:</strong> ${datumVal}</li>
-          <li>* <strong>Maanfase:</strong> ${maanVal}</li>
-          <li>* <strong>Laatste getij van de dag:</strong>
+          <li><strong>Datum:</strong> ${datumVal}</li>
+          <li><strong>Maanfase:</strong> ${maanVal}</li>
+          <li><strong>Laatste getij van de dag:</strong>
             <div class="sub-item">• <strong>Wemeldinge:</strong> ${wemVal}</div>
             <div class="sub-item">• <strong>Stavenisse:</strong> ${stavVal}</div>
           </li>
-          <li>* <strong>Wind Oosterschelde:</strong> ${windZeelandVal}</li>
-          <li>* <strong>Weer & Wind Nijlen:</strong> ${weerNijlenVal}</li>
-          <li>* <strong>Zon:</strong> ${zonVal}</li>
+          <li><strong>Weer Oosterschelde:</strong> ${windZeelandVal}</li>
+          <li><strong>Weer Nijlen:</strong> ${weerNijlenVal}</li>
+          <li><strong>Zon:</strong> ${zonVal}</li>
         </ul>
       `;
     }
