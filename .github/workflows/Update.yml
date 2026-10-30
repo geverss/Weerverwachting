@@ -2,24 +2,34 @@ name: Update Duik Data Cache
 
 on:
   schedule:
-    - cron: '0 4 * * *' # Elke nacht om 04:00 UTC
-  workflow_dispatch:     # Handmatige knop om direct te testen
+    # Draait dagelijks om 04:00 UTC (05:00 CET / 06:00 CEST)
+    - cron: '0 4 * * *'
+  workflow_dispatch: # Zorgt voor een handmatige 'Run workflow'-knop in GitHub
+
+# Schrijfrechten toekennen zodat de actie data.json terug kan pushen
+permissions:
+  contents: write
 
 jobs:
-  build:
+  build-and-update:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      - name: Setup Python
+      - name: Repository uitchecken
+        uses: actions/checkout@v4
+
+      - name: Python initialiseren
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Run script
+
+      - name: Cache-script uitvoeren
         run: python update_cache.py
-      - name: Commit and push cache
+
+      - name: Wijzigingen vastleggen en pushen
         run: |
-          git config --global user.name 'DuikBot'
-          git config --global user.email 'bot@duikplanner.local'
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add data.json
-          git commit -m "Dagelijkse cache update" || exit 0
-          git push
+          # Alleen committen als er daadwerkelijk wijzigingen zijn in data.json
+          git diff --staged --quiet || (git commit -m "Automatische update duikcache [skip ci]" && git push)
