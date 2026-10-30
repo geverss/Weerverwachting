@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta name="theme-color" content="#0f172a">
-  <meta name="description" content="Maritieme en astronomische duikplanner voor de Oosterschelde">
-  <title>SportPlanner</title>
+  <meta name="description" content="Duikplanner Oosterschelde">
+  <title>Oosterschelde Duikplanner</title>
   
   <link rel="manifest" href="manifest.json">
   <link rel="apple-touch-icon" href="icon-192.png">
@@ -27,7 +27,7 @@
     }
 
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       background-color: var(--bg);
       color: var(--text);
       padding: 16px;
@@ -55,7 +55,6 @@
       font-size: 1.25rem;
       font-weight: 700;
       color: var(--accent);
-      letter-spacing: -0.01em;
     }
 
     .picker-group {
@@ -81,7 +80,6 @@
       border: 1px solid var(--border);
       border-radius: 8px;
       outline: none;
-      -webkit-appearance: none;
     }
 
     input[type="date"]:focus {
@@ -114,7 +112,7 @@
     }
 
     .sub-item {
-      padding-left: 20px;
+      padding-left: 18px;
       color: #cbd5e1;
       margin-top: 3px;
     }
@@ -176,15 +174,15 @@
   </main>
 
   <script>
-    const CACHE_KEY = "oosterschelde_duik_cache";
-    const META_KEY = "duik_cache_meta";
+    const CACHE_KEY = "oosterschelde_duik_cache_v2"; // Versieverhoging ruimt oude foute cache op
+    const META_KEY = "duik_cache_meta_v2";
     const dateInput = document.getElementById("dive-date");
     const outputContent = document.getElementById("output-content");
     const statusDot = document.getElementById("status-dot");
     const cacheStatus = document.getElementById("cache-status");
     const cacheDate = document.getElementById("cache-date");
 
-    // Stel standaard datum in op vandaag (lokale tijdzone)
+    // Vandaag instellen als standaard
     const now = new Date();
     const localToday = new Date(now.getTime() - now.getTimezoneOffset() * 60000)
       .toISOString()
@@ -193,13 +191,18 @@
 
     function renderDetails(dateKey) {
       const rawData = localStorage.getItem(CACHE_KEY);
-      const cache = rawData ? JSON.parse(rawData) : null;
+      let cache = null;
+      try {
+        cache = rawData ? JSON.parse(rawData) : null;
+      } catch (e) {
+        cache = null;
+      }
 
       if (!cache || !cache[dateKey]) {
         outputContent.innerHTML = `
           <div class="error-msg">
-            Geen offline gegevens gevonden voor ${dateKey}.<br>
-            Controleer de internetverbinding om de nieuwste maandcache te laden.
+            Geen gegevens gevonden voor ${dateKey}.<br>
+            Tik op de pagina of herlaad zodra er een internetverbinding is om de cache bij te werken.
           </div>
         `;
         return;
@@ -207,28 +210,37 @@
 
       const item = cache[dateKey];
 
+      // Veilige fallbacks om ten alle tijden 'undefined' te voorkomen
+      const datumVal = item.datum || dateKey;
+      const maanVal = item.maan || "Geen maangegevens beschikbaar";
+      const wemVal = item.wemeldinge_tij || "Tijdstip onbekend";
+      const stavVal = item.stavenisse_tij || "Tijdstip onbekend";
+      const windZeelandVal = item.wind_oosterschelde || item.wind || "Niet beschikbaar (>14 dagen vooruit)";
+      const weerNijlenVal = item.weer_nijlen || "Niet beschikbaar (>14 dagen vooruit)";
+      const zonVal = item.zon || "Tijdstip onbekend";
+
       outputContent.innerHTML = `
         <ul class="data-list">
-          <li>* <strong>Datum:</strong> ${item.datum}</li>
-          <li>* <strong>Maanfase:</strong> ${item.maan}</li>
+          <li>* <strong>Datum:</strong> ${datumVal}</li>
+          <li>* <strong>Maanfase:</strong> ${maanVal}</li>
           <li>* <strong>Laatste getij van de dag:</strong>
-            <div class="sub-item">• <strong>Wemeldinge:</strong> ${item.wemeldinge_tij}</div>
-            <div class="sub-item">• <strong>Stavenisse:</strong> ${item.stavenisse_tij}</div>
+            <div class="sub-item">• <strong>Wemeldinge:</strong> ${wemVal}</div>
+            <div class="sub-item">• <strong>Stavenisse:</strong> ${stavVal}</div>
           </li>
-          <li>* <strong>Wind Oosterschelde:</strong> ${item.wind_oosterschelde}</li>
-          <li>* <strong>Weer & Wind Nijlen:</strong> ${item.weer_nijlen}</li>
-          <li>* <strong>Zon:</strong> ${item.zon}</li>
+          <li>* <strong>Wind Oosterschelde:</strong> ${windZeelandVal}</li>
+          <li>* <strong>Weer & Wind Nijlen:</strong> ${weerNijlenVal}</li>
+          <li>* <strong>Zon:</strong> ${zonVal}</li>
         </ul>
       `;
     }
 
     async function syncCache() {
       try {
-        const response = await fetch("data.json?cache_bust=" + Date.now(), {
+        const response = await fetch("data.json?t=" + Date.now(), {
           cache: "no-store"
         });
 
-        if (!response.ok) throw new Error("Netwerkfout bij ophalen data.json");
+        if (!response.ok) throw new Error("HTTP " + response.status);
 
         const data = await response.json();
         localStorage.setItem(CACHE_KEY, JSON.stringify(data));
@@ -241,7 +253,7 @@
         cacheDate.textContent = "Vandaag " + timestamp;
       } catch (err) {
         statusDot.classList.add("offline");
-        cacheStatus.textContent = "Offline modus (lokale cache)";
+        cacheStatus.textContent = "Offline modus";
         const savedMeta = localStorage.getItem(META_KEY);
         cacheDate.textContent = savedMeta ? "Laatste sync: " + savedMeta : "";
       } finally {
@@ -253,16 +265,13 @@
       renderDetails(e.target.value);
     });
 
-    // Registratie Service Worker voor volledige PWA-functionaliteit
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", () => {
-        navigator.serviceWorker.register("./sw.js").catch(() => {
-          // SW draait stil op de achtergrond
-        });
+        navigator.serviceWorker.register("./sw.js").catch(() => {});
       });
     }
 
-    // Direct tonen uit eventueel aanwezige cache, daarna updaten
+    // Direct tonen wat er is, direct daarna op de achtergrond verversen
     renderDetails(dateInput.value);
     syncCache();
   </script>
