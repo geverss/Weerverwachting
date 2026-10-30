@@ -43,6 +43,7 @@
       border-radius: 14px;
       padding: 20px;
       box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
+      touch-action: pan-y;
     }
 
     header {
@@ -264,6 +265,49 @@
     dateInput.addEventListener("change", (e) => {
       renderDetails(e.target.value);
     });
+
+    let touchStart = null;
+
+    document.querySelector(".container").addEventListener("touchstart", (event) => {
+      if (event.target === dateInput || event.touches.length !== 1) {
+        touchStart = null;
+        return;
+      }
+
+      touchStart = {
+        x: event.touches[0].clientX,
+        y: event.touches[0].clientY
+      };
+    }, { passive: true });
+
+    document.querySelector(".container").addEventListener("touchend", (event) => {
+      if (!touchStart || event.changedTouches.length !== 1) {
+        touchStart = null;
+        return;
+      }
+
+      const touchEnd = event.changedTouches[0];
+      const deltaX = touchEnd.clientX - touchStart.x;
+      const deltaY = touchEnd.clientY - touchStart.y;
+      touchStart = null;
+
+      if (Math.abs(deltaX) < 50 || Math.abs(deltaX) <= Math.abs(deltaY)) return;
+
+      const [year, month, day] = dateInput.value.split("-").map(Number);
+      const selectedDate = new Date(year, month - 1, day);
+      selectedDate.setDate(selectedDate.getDate() + (deltaX < 0 ? -1 : 1));
+
+      dateInput.value = [
+        selectedDate.getFullYear(),
+        String(selectedDate.getMonth() + 1).padStart(2, "0"),
+        String(selectedDate.getDate()).padStart(2, "0")
+      ].join("-");
+      renderDetails(dateInput.value);
+    }, { passive: true });
+
+    document.querySelector(".container").addEventListener("touchcancel", () => {
+      touchStart = null;
+    }, { passive: true });
 
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", () => {
