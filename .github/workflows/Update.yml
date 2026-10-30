@@ -1,0 +1,25 @@
+name: Update Duik Data Cache
+
+on:
+  schedule:
+    - cron: '0 4 * * *' # Elke nacht om 04:00 UTC
+  workflow_dispatch:     # Handmatige knop om direct te testen
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run script
+        run: python update_cache.py
+      - name: Commit and push cache
+        run: |
+          git config --global user.name 'DuikBot'
+          git config --global user.email 'bot@duikplanner.local'
+          git add data.json
+          git commit -m "Dagelijkse cache update" || exit 0
+          git push
