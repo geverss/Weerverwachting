@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oosterschelde Duikplanner</title>
+  <link rel="apple-touch-icon" href="icon.png">
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #0f172a; color: #f8fafc; padding: 20px; margin: 0; }
+    .card { background: #1e293b; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.3); max-width: 480px; margin: 0 auto; }
+    h2 { margin-top: 0; color: #38bdf8; font-size: 1.3rem; }
+    label { font-size: 0.9rem; color: #94a3b8; display: block; margin-bottom: 6px; }
+    input[type="date"] { width: 100%; padding: 12px; font-size: 1rem; border-radius: 8px; border: 1px solid #334155; background: #0f172a; color: #fff; box-sizing: border-box; }
+    ul { list-style: none; padding: 0; margin-top: 20px; line-height: 1.6; }
+    li { margin-bottom: 12px; }
+    strong { color: #f1f5f9; }
+    .sub { padding-left: 20px; color: #cbd5e1; }
+    .status { font-size: 0.75rem; color: #64748b; margin-top: 15px; text-align: center; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>Oosterschelde Planner</h2>
+    <label for="date-picker">Kies een duikdatum:</label>
+    <input type="date" id="date-picker">
+
+    <div id="output"></div>
+    <div class="status" id="cache-status">Cache status controleren...</div>
+  </div>
+
+  <script>
+    const CACHE_KEY = "oosterschelde_duik_cache";
+
+    // 1. Download nieuwe cache en overschrijf localStorage
+    async function refreshCache() {
+      try {
+        const res = await fetch('data.json?t=' + new Date().getTime());
+        if (res.ok) {
+          const json = await res.json();
+          localStorage.setItem(CACHE_KEY, JSON.stringify(json));
+          localStorage.setItem('cache_timestamp', new Date().toLocaleDateString('nl-NL'));
+          document.getElementById('cache-status').innerText = "Cache bijgewerkt: vandaag";
+        }
+      } catch (e) {
+        document.getElementById('cache-status').innerText = "Offline modus: cache uit geheugen";
+      }
+    }
+
+    // 2. Toon data voor geselecteerde dag
+    function showDate(dateStr) {
+      const cache = JSON.parse(localStorage.getItem(CACHE_KEY) || "{}");
+      const d = cache[dateStr];
+      const out = document.getElementById('output');
+
+      if (!d) {
+        out.innerHTML = "<p style='color:#f87171; margin-top:15px;'>Geen gegevens beschikbaar voor deze datum.</p>";
+        return;
+      }
+
+      out.innerHTML = `
+        <ul>
+          <li>* <strong>Datum:</strong> ${d.datum}</li>
+          <li>* <strong>Maanfase:</strong> ${d.maan}</li>
+          <li>* <strong>Laatste getij van de dag:</strong>
+            <div class="sub">• <strong>Wemeldinge:</strong> ${d.wemeldinge_tij}</div>
+            <div class="sub">• <strong>Stavenisse:</strong> ${d.stavenisse_tij}</div>
+          </li>
+          <li>* <strong>Wind:</strong> ${d.wind}</li>
+          <li>* <strong>Zon:</strong> ${d.zon}</li>
+        </ul>
+      `;
+    }
+
+    const picker = document.getElementById('date-picker');
+    picker.value = new Date().toISOString().split('T')[0];
+    picker.addEventListener('change', (e) => showDate(e.target.value));
+
+    // Initialiseren
+    refreshCache().then(() => showDate(picker.value));
+  </script>
+</body>
+</html>
