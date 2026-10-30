@@ -295,7 +295,7 @@
 
       const [year, month, day] = dateInput.value.split("-").map(Number);
       const selectedDate = new Date(year, month - 1, day);
-      selectedDate.setDate(selectedDate.getDate() + (deltaX < 0 ? -1 : 1));
+      selectedDate.setDate(selectedDate.getDate() + (deltaX < 0 ? 1 : -1));
 
       dateInput.value = [
         selectedDate.getFullYear(),

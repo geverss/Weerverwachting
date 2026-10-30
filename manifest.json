@@ -1,6 +1,6 @@
 {
-  "name": "Oosterschelde Duikplanner",
-  "short_name": "Duikplanner",
+  "name": "Sportplanner",
+  "short_name": "SportPlanner",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#0f172a",
