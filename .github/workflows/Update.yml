@@ -24,6 +24,12 @@ jobs:
           python-version: '3.11'
 
       - name: Cache-script uitvoeren
+        run: pwd
+
+      - name: Cache-script uitvoeren
+        run: ls
+
+      - name: Cache-script uitvoeren
         run: python update_cache.py
 
       - name: Wijzigingen vastleggen en pushen
