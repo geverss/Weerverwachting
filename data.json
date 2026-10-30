@@ -1,282 +1,352 @@
 {
   "2026-10-30": {
     "datum": "Friday 30 October 2026",
-    "maan": "Afnemende maan (3 dagen na volle maan)",
-    "wemeldinge_tij": "20:45 uur -- Laagwater (LW)",
-    "stavenisse_tij": "20:40 uur -- Laagwater (LW)",
-    "wind": "O, 3 Bft (ca. 10 knopen)",
-    "zon": "07:33 uur op / 17:22 uur onder"
+    "maan": "4 dagen vóór Laatste Kwartier (halve maan); afnemende maan (ca. 85% verlicht, doodtijperiode)",
+    "wemeldinge_tij": "18:28 uur — Hoogwater (HW)",
+    "stavenisse_tij": "18:23 uur — Hoogwater (HW)",
+    "wind_oosterschelde": "O, 3 Bft (ca. 10 knopen) — 13°C, 0% regen",
+    "weer_nijlen": "NO, 2 Bft (ca. 6 knopen) — 13°C, 0% regen",
+    "wind": "O, 3 Bft (ca. 10 knopen) — 13°C, 0% regen",
+    "zon": "Zonsopgang: 07:33 uur / Zonsondergang: 17:22 uur"
   },
   "2026-10-31": {
     "datum": "Saturday 31 October 2026",
-    "maan": "Afnemende maan (3 dagen na volle maan)",
-    "wemeldinge_tij": "20:45 uur -- Laagwater (LW)",
-    "stavenisse_tij": "20:40 uur -- Laagwater (LW)",
-    "wind": "ONO, 3 Bft (ca. 9 knopen)",
-    "zon": "07:35 uur op / 17:20 uur onder"
+    "maan": "3 dagen vóór Laatste Kwartier (halve maan); afnemende maan (ca. 77% verlicht, doodtijperiode)",
+    "wemeldinge_tij": "19:18 uur — Hoogwater (HW)",
+    "stavenisse_tij": "19:13 uur — Hoogwater (HW)",
+    "wind_oosterschelde": "ONO, 3 Bft (ca. 10 knopen) — 10°C, 0% regen",
+    "weer_nijlen": "ONO, 2 Bft (ca. 6 knopen) — 9°C, 0% regen",
+    "wind": "ONO, 3 Bft (ca. 10 knopen) — 10°C, 0% regen",
+    "zon": "Zonsopgang: 07:35 uur / Zonsondergang: 17:20 uur"
   },
   "2026-11-01": {
     "datum": "Sunday 01 November 2026",
-    "maan": "Afnemende maan (3 dagen na volle maan)",
-    "wemeldinge_tij": "20:45 uur -- Laagwater (LW)",
-    "stavenisse_tij": "20:40 uur -- Laagwater (LW)",
-    "wind": "NNO, 3 Bft (ca. 10 knopen)",
-    "zon": "07:37 uur op / 17:18 uur onder"
+    "maan": "2 dagen vóór Laatste Kwartier (halve maan); afnemende maan (ca. 67% verlicht, doodtijperiode)",
+    "wemeldinge_tij": "20:08 uur — Hoogwater (HW)",
+    "stavenisse_tij": "20:03 uur — Hoogwater (HW)",
+    "wind_oosterschelde": "NNO, 3 Bft (ca. 8 knopen) — 12°C, 15% regen",
+    "weer_nijlen": "N, 2 Bft (ca. 4 knopen) — 11°C, 8% regen",
+    "wind": "NNO, 3 Bft (ca. 8 knopen) — 12°C, 15% regen",
+    "zon": "Zonsopgang: 07:37 uur / Zonsondergang: 17:18 uur"
   },
   "2026-11-02": {
     "datum": "Monday 02 November 2026",
-    "maan": "Afnemende maan (3 dagen na volle maan)",
-    "wemeldinge_tij": "20:45 uur -- Laagwater (LW)",
-    "stavenisse_tij": "20:40 uur -- Laagwater (LW)",
-    "wind": "NNO, 4 Bft (ca. 13 knopen)",
-    "zon": "07:39 uur op / 17:17 uur onder"
+    "maan": "1 dag vóór Laatste Kwartier (halve maan); afnemende maan (ca. 57% verlicht, doodtijperiode)",
+    "wemeldinge_tij": "20:58 uur — Hoogwater (HW)",
+    "stavenisse_tij": "20:53 uur — Hoogwater (HW)",
+    "wind_oosterschelde": "NNO, 4 Bft (ca. 13 knopen) — 13°C, 29% regen",
+    "weer_nijlen": "N, 3 Bft (ca. 9 knopen) — 13°C, 27% regen",
+    "wind": "NNO, 4 Bft (ca. 13 knopen) — 13°C, 29% regen",
+    "zon": "Zonsopgang: 07:39 uur / Zonsondergang: 17:17 uur"
   },
   "2026-11-03": {
     "datum": "Tuesday 03 November 2026",
-    "maan": "Afnemende maan (3 dagen na volle maan)",
-    "wemeldinge_tij": "20:45 uur -- Laagwater (LW)",
-    "stavenisse_tij": "20:40 uur -- Laagwater (LW)",
-    "wind": "NO, 4 Bft (ca. 12 knopen)",
-    "zon": "07:40 uur op / 17:15 uur onder"
+    "maan": "vandaag Laatste Kwartier (halve maan); afnemende maan (ca. 46% verlicht, doodtijperiode)",
+    "wemeldinge_tij": "21:48 uur — Hoogwater (HW)",
+    "stavenisse_tij": "21:43 uur — Hoogwater (HW)",
+    "wind_oosterschelde": "NO, 4 Bft (ca. 12 knopen) — 11°C, 4% regen",
+    "weer_nijlen": "NO, 3 Bft (ca. 9 knopen) — 11°C, 4% regen",
+    "wind": "NO, 4 Bft (ca. 12 knopen) — 11°C, 4% regen",
+    "zon": "Zonsopgang: 07:40 uur / Zonsondergang: 17:15 uur"
   },
   "2026-11-04": {
     "datum": "Wednesday 04 November 2026",
-    "maan": "Afnemende maan (3 dagen na volle maan)",
-    "wemeldinge_tij": "20:45 uur -- Laagwater (LW)",
-    "stavenisse_tij": "20:40 uur -- Laagwater (LW)",
-    "wind": "ONO, 4 Bft (ca. 12 knopen)",
-    "zon": "07:42 uur op / 17:13 uur onder"
+    "maan": "1 dag na Laatste Kwartier (halve maan); afnemende maan (ca. 36% verlicht, doodtijperiode)",
+    "wemeldinge_tij": "22:38 uur — Hoogwater (HW)",
+    "stavenisse_tij": "22:33 uur — Hoogwater (HW)",
+    "wind_oosterschelde": "ONO, 4 Bft (ca. 12 knopen) — 9°C, 2% regen",
+    "weer_nijlen": "ONO, 3 Bft (ca. 9 knopen) — 8°C, 0% regen",
+    "wind": "ONO, 4 Bft (ca. 12 knopen) — 9°C, 2% regen",
+    "zon": "Zonsopgang: 07:42 uur / Zonsondergang: 17:13 uur"
   },
   "2026-11-05": {
     "datum": "Thursday 05 November 2026",
-    "maan": "Afnemende maan (3 dagen na volle maan)",
-    "wemeldinge_tij": "20:45 uur -- Laagwater (LW)",
-    "stavenisse_tij": "20:40 uur -- Laagwater (LW)",
-    "wind": "ONO, 3 Bft (ca. 10 knopen)",
-    "zon": "07:44 uur op / 17:11 uur onder"
+    "maan": "2 dagen na Laatste Kwartier (halve maan); afnemende maan (ca. 26% verlicht, doodtijperiode)",
+    "wemeldinge_tij": "23:28 uur — Hoogwater (HW)",
+    "stavenisse_tij": "23:23 uur — Hoogwater (HW)",
+    "wind_oosterschelde": "ONO, 3 Bft (ca. 10 knopen) — 9°C, 0% regen",
+    "weer_nijlen": "ONO, 3 Bft (ca. 7 knopen) — 9°C, 2% regen",
+    "wind": "ONO, 3 Bft (ca. 10 knopen) — 9°C, 0% regen",
+    "zon": "Zonsopgang: 07:44 uur / Zonsondergang: 17:11 uur"
   },
   "2026-11-06": {
     "datum": "Friday 06 November 2026",
-    "maan": "Afnemende maan (3 dagen na volle maan)",
-    "wemeldinge_tij": "20:45 uur -- Laagwater (LW)",
-    "stavenisse_tij": "20:40 uur -- Laagwater (LW)",
-    "wind": "ONO, 3 Bft (ca. 9 knopen)",
-    "zon": "07:46 uur op / 17:10 uur onder"
+    "maan": "3 dagen na Laatste Kwartier (halve maan); afnemende maan (ca. 17% verlicht, doodtijperiode)",
+    "wemeldinge_tij": "18:06 uur — Laagwater (LW)",
+    "stavenisse_tij": "18:01 uur — Laagwater (LW)",
+    "wind_oosterschelde": "ONO, 3 Bft (ca. 9 knopen) — 10°C, 2% regen",
+    "weer_nijlen": "NO, 2 Bft (ca. 6 knopen) — 10°C, 2% regen",
+    "wind": "ONO, 3 Bft (ca. 9 knopen) — 10°C, 2% regen",
+    "zon": "Zonsopgang: 07:46 uur / Zonsondergang: 17:10 uur"
   },
   "2026-11-07": {
     "datum": "Saturday 07 November 2026",
-    "maan": "Afnemende maan (3 dagen na volle maan)",
-    "wemeldinge_tij": "20:45 uur -- Laagwater (LW)",
-    "stavenisse_tij": "20:40 uur -- Laagwater (LW)",
-    "wind": "ONO, 3 Bft (ca. 7 knopen)",
-    "zon": "07:48 uur op / 17:08 uur onder"
+    "maan": "3 dagen vóór Nieuwe Maan; afnemende maan (ca. 10% verlicht, doodtijperiode)",
+    "wemeldinge_tij": "18:56 uur — Laagwater (LW)",
+    "stavenisse_tij": "18:51 uur — Laagwater (LW)",
+    "wind_oosterschelde": "ONO, 3 Bft (ca. 7 knopen) — 8°C, 4% regen",
+    "weer_nijlen": "NO, 2 Bft (ca. 4 knopen) — 6°C, 6% regen",
+    "wind": "ONO, 3 Bft (ca. 7 knopen) — 8°C, 4% regen",
+    "zon": "Zonsopgang: 07:48 uur / Zonsondergang: 17:08 uur"
   },
   "2026-11-08": {
     "datum": "Sunday 08 November 2026",
-    "maan": "Afnemende maan (3 dagen na volle maan)",
-    "wemeldinge_tij": "20:45 uur -- Laagwater (LW)",
-    "stavenisse_tij": "20:40 uur -- Laagwater (LW)",
-    "wind": "OZO, 3 Bft (ca. 7 knopen)",
-    "zon": "07:49 uur op / 17:07 uur onder"
+    "maan": "2 dagen vóór Nieuwe Maan; afnemende maan (ca. 4% verlicht, doodtijperiode)",
+    "wemeldinge_tij": "19:46 uur — Laagwater (LW)",
+    "stavenisse_tij": "19:41 uur — Laagwater (LW)",
+    "wind_oosterschelde": "OZO, 3 Bft (ca. 7 knopen) — 6°C, 13% regen",
+    "weer_nijlen": "O, 2 Bft (ca. 4 knopen) — 5°C, 8% regen",
+    "wind": "OZO, 3 Bft (ca. 7 knopen) — 6°C, 13% regen",
+    "zon": "Zonsopgang: 07:49 uur / Zonsondergang: 17:07 uur"
   },
   "2026-11-09": {
     "datum": "Monday 09 November 2026",
-    "maan": "Afnemende maan (3 dagen na volle maan)",
-    "wemeldinge_tij": "20:45 uur -- Laagwater (LW)",
-    "stavenisse_tij": "20:40 uur -- Laagwater (LW)",
-    "wind": "ZO, 3 Bft (ca. 10 knopen)",
-    "zon": "07:51 uur op / 17:05 uur onder"
+    "maan": "1 dag vóór Nieuwe Maan; afnemende maan (ca. 1% verlicht, doodtijperiode)",
+    "wemeldinge_tij": "20:36 uur — Laagwater (LW)",
+    "stavenisse_tij": "20:31 uur — Laagwater (LW)",
+    "wind_oosterschelde": "ZO, 3 Bft (ca. 10 knopen) — 10°C, 15% regen",
+    "weer_nijlen": "ZO, 3 Bft (ca. 8 knopen) — 11°C, 16% regen",
+    "wind": "ZO, 3 Bft (ca. 10 knopen) — 10°C, 15% regen",
+    "zon": "Zonsopgang: 07:51 uur / Zonsondergang: 17:05 uur"
   },
   "2026-11-10": {
     "datum": "Tuesday 10 November 2026",
-    "maan": "Afnemende maan (3 dagen na volle maan)",
-    "wemeldinge_tij": "20:45 uur -- Laagwater (LW)",
-    "stavenisse_tij": "20:40 uur -- Laagwater (LW)",
-    "wind": "Z, 3 Bft (ca. 10 knopen)",
-    "zon": "07:53 uur op / 17:03 uur onder"
+    "maan": "vandaag Nieuwe Maan; afnemende maan (ca. 0% verlicht, doodtijperiode)",
+    "wemeldinge_tij": "21:26 uur — Laagwater (LW)",
+    "stavenisse_tij": "21:21 uur — Laagwater (LW)",
+    "wind_oosterschelde": "Z, 3 Bft (ca. 10 knopen) — 13°C, 23% regen",
+    "weer_nijlen": "ZZO, 3 Bft (ca. 8 knopen) — 13°C, 21% regen",
+    "wind": "Z, 3 Bft (ca. 10 knopen) — 13°C, 23% regen",
+    "zon": "Zonsopgang: 07:53 uur / Zonsondergang: 17:03 uur"
   },
   "2026-11-11": {
     "datum": "Wednesday 11 November 2026",
-    "maan": "Afnemende maan (3 dagen na volle maan)",
-    "wemeldinge_tij": "20:45 uur -- Laagwater (LW)",
-    "stavenisse_tij": "20:40 uur -- Laagwater (LW)",
-    "wind": "NNW, 3 Bft (ca. 8 knopen)",
-    "zon": "07:55 uur op / 17:02 uur onder"
+    "maan": "1 dag na Nieuwe Maan; wassende maan (ca. 1% verlicht, springtijperiode)",
+    "wemeldinge_tij": "22:16 uur — Laagwater (LW)",
+    "stavenisse_tij": "22:11 uur — Laagwater (LW)",
+    "wind_oosterschelde": "NNW, 3 Bft (ca. 8 knopen) — 14°C, 25% regen",
+    "weer_nijlen": "WNW, 2 Bft (ca. 4 knopen) — 13°C, 31% regen",
+    "wind": "NNW, 3 Bft (ca. 8 knopen) — 14°C, 25% regen",
+    "zon": "Zonsopgang: 07:55 uur / Zonsondergang: 17:02 uur"
   },
   "2026-11-12": {
     "datum": "Thursday 12 November 2026",
-    "maan": "Afnemende maan (3 dagen na volle maan)",
-    "wemeldinge_tij": "20:45 uur -- Laagwater (LW)",
-    "stavenisse_tij": "20:40 uur -- Laagwater (LW)",
-    "wind": "ZW, 2 Bft (ca. 5 knopen)",
-    "zon": "07:56 uur op / 17:00 uur onder"
+    "maan": "2 dagen na Nieuwe Maan; wassende maan (ca. 4% verlicht, springtijperiode)",
+    "wemeldinge_tij": "23:06 uur — Laagwater (LW)",
+    "stavenisse_tij": "23:01 uur — Laagwater (LW)",
+    "wind_oosterschelde": "ZW, 2 Bft (ca. 5 knopen) — 11°C, 16% regen",
+    "weer_nijlen": "ZW, 1 Bft (ca. 3 knopen) — 11°C, 20% regen",
+    "wind": "ZW, 2 Bft (ca. 5 knopen) — 11°C, 16% regen",
+    "zon": "Zonsopgang: 07:56 uur / Zonsondergang: 17:00 uur"
   },
   "2026-11-13": {
     "datum": "Friday 13 November 2026",
-    "maan": "Afnemende maan (3 dagen na volle maan)",
-    "wemeldinge_tij": "20:45 uur -- Laagwater (LW)",
-    "stavenisse_tij": "20:40 uur -- Laagwater (LW)",
-    "wind": "Nog niet beschikbaar (>14 dagen vooruit)",
-    "zon": "07:58 uur op / 16:59 uur onder"
+    "maan": "3 dagen na Nieuwe Maan; wassende maan (ca. 10% verlicht, springtijperiode)",
+    "wemeldinge_tij": "23:56 uur — Laagwater (LW)",
+    "stavenisse_tij": "23:51 uur — Laagwater (LW)",
+    "wind_oosterschelde": "Geen modelverwachting (>14 dagen vooruit)",
+    "weer_nijlen": "Geen modelverwachting (>14 dagen vooruit)",
+    "wind": "Geen modelverwachting (>14 dagen vooruit)",
+    "zon": "Zonsopgang: 07:58 uur / Zonsondergang: 16:59 uur"
   },
   "2026-11-14": {
     "datum": "Saturday 14 November 2026",
-    "maan": "Afnemende maan (3 dagen na volle maan)",
-    "wemeldinge_tij": "20:45 uur -- Laagwater (LW)",
-    "stavenisse_tij": "20:40 uur -- Laagwater (LW)",
-    "wind": "Nog niet beschikbaar (>14 dagen vooruit)",
-    "zon": "07:60 uur op / 16:58 uur onder"
+    "maan": "3 dagen vóór Eerste Kwartier (halve maan); wassende maan (ca. 17% verlicht, doodtijperiode)",
+    "wemeldinge_tij": "18:33 uur — Hoogwater (HW)",
+    "stavenisse_tij": "18:28 uur — Hoogwater (HW)",
+    "wind_oosterschelde": "Geen modelverwachting (>14 dagen vooruit)",
+    "weer_nijlen": "Geen modelverwachting (>14 dagen vooruit)",
+    "wind": "Geen modelverwachting (>14 dagen vooruit)",
+    "zon": "Zonsopgang: 08:00 uur / Zonsondergang: 16:58 uur"
   },
   "2026-11-15": {
     "datum": "Sunday 15 November 2026",
-    "maan": "Afnemende maan (3 dagen na volle maan)",
-    "wemeldinge_tij": "20:45 uur -- Laagwater (LW)",
-    "stavenisse_tij": "20:40 uur -- Laagwater (LW)",
-    "wind": "Nog niet beschikbaar (>14 dagen vooruit)",
-    "zon": "08:01 uur op / 16:56 uur onder"
+    "maan": "2 dagen vóór Eerste Kwartier (halve maan); wassende maan (ca. 26% verlicht, doodtijperiode)",
+    "wemeldinge_tij": "19:23 uur — Hoogwater (HW)",
+    "stavenisse_tij": "19:18 uur — Hoogwater (HW)",
+    "wind_oosterschelde": "Geen modelverwachting (>14 dagen vooruit)",
+    "weer_nijlen": "Geen modelverwachting (>14 dagen vooruit)",
+    "wind": "Geen modelverwachting (>14 dagen vooruit)",
+    "zon": "Zonsopgang: 08:01 uur / Zonsondergang: 16:56 uur"
   },
   "2026-11-16": {
     "datum": "Monday 16 November 2026",
-    "maan": "Afnemende maan (3 dagen na volle maan)",
-    "wemeldinge_tij": "20:45 uur -- Laagwater (LW)",
-    "stavenisse_tij": "20:40 uur -- Laagwater (LW)",
-    "wind": "Nog niet beschikbaar (>14 dagen vooruit)",
-    "zon": "08:03 uur op / 16:55 uur onder"
+    "maan": "1 dag vóór Eerste Kwartier (halve maan); wassende maan (ca. 35% verlicht, doodtijperiode)",
+    "wemeldinge_tij": "20:13 uur — Hoogwater (HW)",
+    "stavenisse_tij": "20:08 uur — Hoogwater (HW)",
+    "wind_oosterschelde": "Geen modelverwachting (>14 dagen vooruit)",
+    "weer_nijlen": "Geen modelverwachting (>14 dagen vooruit)",
+    "wind": "Geen modelverwachting (>14 dagen vooruit)",
+    "zon": "Zonsopgang: 08:03 uur / Zonsondergang: 16:55 uur"
   },
   "2026-11-17": {
     "datum": "Tuesday 17 November 2026",
-    "maan": "Afnemende maan (3 dagen na volle maan)",
-    "wemeldinge_tij": "20:45 uur -- Laagwater (LW)",
-    "stavenisse_tij": "20:40 uur -- Laagwater (LW)",
-    "wind": "Nog niet beschikbaar (>14 dagen vooruit)",
-    "zon": "08:05 uur op / 16:54 uur onder"
+    "maan": "vandaag Eerste Kwartier (halve maan); wassende maan (ca. 46% verlicht, doodtijperiode)",
+    "wemeldinge_tij": "21:03 uur — Hoogwater (HW)",
+    "stavenisse_tij": "20:58 uur — Hoogwater (HW)",
+    "wind_oosterschelde": "Geen modelverwachting (>14 dagen vooruit)",
+    "weer_nijlen": "Geen modelverwachting (>14 dagen vooruit)",
+    "wind": "Geen modelverwachting (>14 dagen vooruit)",
+    "zon": "Zonsopgang: 08:05 uur / Zonsondergang: 16:54 uur"
   },
   "2026-11-18": {
     "datum": "Wednesday 18 November 2026",
-    "maan": "Afnemende maan (3 dagen na volle maan)",
-    "wemeldinge_tij": "20:45 uur -- Laagwater (LW)",
-    "stavenisse_tij": "20:40 uur -- Laagwater (LW)",
-    "wind": "Nog niet beschikbaar (>14 dagen vooruit)",
-    "zon": "08:06 uur op / 16:52 uur onder"
+    "maan": "1 dag na Eerste Kwartier (halve maan); wassende maan (ca. 56% verlicht, doodtijperiode)",
+    "wemeldinge_tij": "21:53 uur — Hoogwater (HW)",
+    "stavenisse_tij": "21:48 uur — Hoogwater (HW)",
+    "wind_oosterschelde": "Geen modelverwachting (>14 dagen vooruit)",
+    "weer_nijlen": "Geen modelverwachting (>14 dagen vooruit)",
+    "wind": "Geen modelverwachting (>14 dagen vooruit)",
+    "zon": "Zonsopgang: 08:06 uur / Zonsondergang: 16:52 uur"
   },
   "2026-11-19": {
     "datum": "Thursday 19 November 2026",
-    "maan": "Afnemende maan (3 dagen na volle maan)",
-    "wemeldinge_tij": "20:45 uur -- Laagwater (LW)",
-    "stavenisse_tij": "20:40 uur -- Laagwater (LW)",
-    "wind": "Nog niet beschikbaar (>14 dagen vooruit)",
-    "zon": "08:08 uur op / 16:51 uur onder"
+    "maan": "2 dagen na Eerste Kwartier (halve maan); wassende maan (ca. 67% verlicht, doodtijperiode)",
+    "wemeldinge_tij": "22:43 uur — Hoogwater (HW)",
+    "stavenisse_tij": "22:38 uur — Hoogwater (HW)",
+    "wind_oosterschelde": "Geen modelverwachting (>14 dagen vooruit)",
+    "weer_nijlen": "Geen modelverwachting (>14 dagen vooruit)",
+    "wind": "Geen modelverwachting (>14 dagen vooruit)",
+    "zon": "Zonsopgang: 08:08 uur / Zonsondergang: 16:51 uur"
   },
   "2026-11-20": {
     "datum": "Friday 20 November 2026",
-    "maan": "Afnemende maan (3 dagen na volle maan)",
-    "wemeldinge_tij": "20:45 uur -- Laagwater (LW)",
-    "stavenisse_tij": "20:40 uur -- Laagwater (LW)",
-    "wind": "Nog niet beschikbaar (>14 dagen vooruit)",
-    "zon": "08:10 uur op / 16:50 uur onder"
+    "maan": "3 dagen na Eerste Kwartier (halve maan); wassende maan (ca. 76% verlicht, doodtijperiode)",
+    "wemeldinge_tij": "23:33 uur — Hoogwater (HW)",
+    "stavenisse_tij": "23:28 uur — Hoogwater (HW)",
+    "wind_oosterschelde": "Geen modelverwachting (>14 dagen vooruit)",
+    "weer_nijlen": "Geen modelverwachting (>14 dagen vooruit)",
+    "wind": "Geen modelverwachting (>14 dagen vooruit)",
+    "zon": "Zonsopgang: 08:10 uur / Zonsondergang: 16:50 uur"
   },
   "2026-11-21": {
     "datum": "Saturday 21 November 2026",
-    "maan": "Afnemende maan (3 dagen na volle maan)",
-    "wemeldinge_tij": "20:45 uur -- Laagwater (LW)",
-    "stavenisse_tij": "20:40 uur -- Laagwater (LW)",
-    "wind": "Nog niet beschikbaar (>14 dagen vooruit)",
-    "zon": "08:11 uur op / 16:49 uur onder"
+    "maan": "4 dagen na Eerste Kwartier (halve maan); wassende maan (ca. 85% verlicht, doodtijperiode)",
+    "wemeldinge_tij": "18:11 uur — Laagwater (LW)",
+    "stavenisse_tij": "18:06 uur — Laagwater (LW)",
+    "wind_oosterschelde": "Geen modelverwachting (>14 dagen vooruit)",
+    "weer_nijlen": "Geen modelverwachting (>14 dagen vooruit)",
+    "wind": "Geen modelverwachting (>14 dagen vooruit)",
+    "zon": "Zonsopgang: 08:11 uur / Zonsondergang: 16:49 uur"
   },
   "2026-11-22": {
     "datum": "Sunday 22 November 2026",
-    "maan": "Afnemende maan (3 dagen na volle maan)",
-    "wemeldinge_tij": "20:45 uur -- Laagwater (LW)",
-    "stavenisse_tij": "20:40 uur -- Laagwater (LW)",
-    "wind": "Nog niet beschikbaar (>14 dagen vooruit)",
-    "zon": "08:13 uur op / 16:48 uur onder"
+    "maan": "3 dagen vóór Volle Maan; wassende maan (ca. 92% verlicht, springtijperiode)",
+    "wemeldinge_tij": "19:01 uur — Laagwater (LW)",
+    "stavenisse_tij": "18:56 uur — Laagwater (LW)",
+    "wind_oosterschelde": "Geen modelverwachting (>14 dagen vooruit)",
+    "weer_nijlen": "Geen modelverwachting (>14 dagen vooruit)",
+    "wind": "Geen modelverwachting (>14 dagen vooruit)",
+    "zon": "Zonsopgang: 08:13 uur / Zonsondergang: 16:48 uur"
   },
   "2026-11-23": {
     "datum": "Monday 23 November 2026",
-    "maan": "Afnemende maan (3 dagen na volle maan)",
-    "wemeldinge_tij": "20:45 uur -- Laagwater (LW)",
-    "stavenisse_tij": "20:40 uur -- Laagwater (LW)",
-    "wind": "Nog niet beschikbaar (>14 dagen vooruit)",
-    "zon": "08:15 uur op / 16:47 uur onder"
+    "maan": "2 dagen vóór Volle Maan; wassende maan (ca. 96% verlicht, springtijperiode)",
+    "wemeldinge_tij": "19:51 uur — Laagwater (LW)",
+    "stavenisse_tij": "19:46 uur — Laagwater (LW)",
+    "wind_oosterschelde": "Geen modelverwachting (>14 dagen vooruit)",
+    "weer_nijlen": "Geen modelverwachting (>14 dagen vooruit)",
+    "wind": "Geen modelverwachting (>14 dagen vooruit)",
+    "zon": "Zonsopgang: 08:15 uur / Zonsondergang: 16:47 uur"
   },
   "2026-11-24": {
     "datum": "Tuesday 24 November 2026",
-    "maan": "Afnemende maan (3 dagen na volle maan)",
-    "wemeldinge_tij": "20:45 uur -- Laagwater (LW)",
-    "stavenisse_tij": "20:40 uur -- Laagwater (LW)",
-    "wind": "Nog niet beschikbaar (>14 dagen vooruit)",
-    "zon": "08:16 uur op / 16:46 uur onder"
+    "maan": "1 dag vóór Volle Maan; wassende maan (ca. 99% verlicht, springtijperiode)",
+    "wemeldinge_tij": "20:41 uur — Laagwater (LW)",
+    "stavenisse_tij": "20:36 uur — Laagwater (LW)",
+    "wind_oosterschelde": "Geen modelverwachting (>14 dagen vooruit)",
+    "weer_nijlen": "Geen modelverwachting (>14 dagen vooruit)",
+    "wind": "Geen modelverwachting (>14 dagen vooruit)",
+    "zon": "Zonsopgang: 08:16 uur / Zonsondergang: 16:46 uur"
   },
   "2026-11-25": {
     "datum": "Wednesday 25 November 2026",
-    "maan": "Afnemende maan (3 dagen na volle maan)",
-    "wemeldinge_tij": "20:45 uur -- Laagwater (LW)",
-    "stavenisse_tij": "20:40 uur -- Laagwater (LW)",
-    "wind": "Nog niet beschikbaar (>14 dagen vooruit)",
-    "zon": "08:18 uur op / 16:45 uur onder"
+    "maan": "vandaag Volle Maan; afnemende maan (ca. 100% verlicht, springtijperiode)",
+    "wemeldinge_tij": "21:31 uur — Laagwater (LW)",
+    "stavenisse_tij": "21:26 uur — Laagwater (LW)",
+    "wind_oosterschelde": "Geen modelverwachting (>14 dagen vooruit)",
+    "weer_nijlen": "Geen modelverwachting (>14 dagen vooruit)",
+    "wind": "Geen modelverwachting (>14 dagen vooruit)",
+    "zon": "Zonsopgang: 08:18 uur / Zonsondergang: 16:45 uur"
   },
   "2026-11-26": {
     "datum": "Thursday 26 November 2026",
-    "maan": "Afnemende maan (3 dagen na volle maan)",
-    "wemeldinge_tij": "20:45 uur -- Laagwater (LW)",
-    "stavenisse_tij": "20:40 uur -- Laagwater (LW)",
-    "wind": "Nog niet beschikbaar (>14 dagen vooruit)",
-    "zon": "08:19 uur op / 16:44 uur onder"
+    "maan": "1 dag na Volle Maan; afnemende maan (ca. 98% verlicht, springtijperiode)",
+    "wemeldinge_tij": "22:21 uur — Laagwater (LW)",
+    "stavenisse_tij": "22:16 uur — Laagwater (LW)",
+    "wind_oosterschelde": "Geen modelverwachting (>14 dagen vooruit)",
+    "weer_nijlen": "Geen modelverwachting (>14 dagen vooruit)",
+    "wind": "Geen modelverwachting (>14 dagen vooruit)",
+    "zon": "Zonsopgang: 08:19 uur / Zonsondergang: 16:44 uur"
   },
   "2026-11-27": {
     "datum": "Friday 27 November 2026",
-    "maan": "Afnemende maan (3 dagen na volle maan)",
-    "wemeldinge_tij": "20:45 uur -- Laagwater (LW)",
-    "stavenisse_tij": "20:40 uur -- Laagwater (LW)",
-    "wind": "Nog niet beschikbaar (>14 dagen vooruit)",
-    "zon": "08:21 uur op / 16:43 uur onder"
+    "maan": "2 dagen na Volle Maan; afnemende maan (ca. 94% verlicht, springtijperiode)",
+    "wemeldinge_tij": "23:11 uur — Laagwater (LW)",
+    "stavenisse_tij": "23:06 uur — Laagwater (LW)",
+    "wind_oosterschelde": "Geen modelverwachting (>14 dagen vooruit)",
+    "weer_nijlen": "Geen modelverwachting (>14 dagen vooruit)",
+    "wind": "Geen modelverwachting (>14 dagen vooruit)",
+    "zon": "Zonsopgang: 08:21 uur / Zonsondergang: 16:43 uur"
   },
   "2026-11-28": {
     "datum": "Saturday 28 November 2026",
-    "maan": "Afnemende maan (3 dagen na volle maan)",
-    "wemeldinge_tij": "20:45 uur -- Laagwater (LW)",
-    "stavenisse_tij": "20:40 uur -- Laagwater (LW)",
-    "wind": "Nog niet beschikbaar (>14 dagen vooruit)",
-    "zon": "08:22 uur op / 16:42 uur onder"
+    "maan": "3 dagen na Volle Maan; afnemende maan (ca. 89% verlicht, springtijperiode)",
+    "wemeldinge_tij": "17:48 uur — Hoogwater (HW)",
+    "stavenisse_tij": "17:43 uur — Hoogwater (HW)",
+    "wind_oosterschelde": "Geen modelverwachting (>14 dagen vooruit)",
+    "weer_nijlen": "Geen modelverwachting (>14 dagen vooruit)",
+    "wind": "Geen modelverwachting (>14 dagen vooruit)",
+    "zon": "Zonsopgang: 08:22 uur / Zonsondergang: 16:42 uur"
   },
   "2026-11-29": {
     "datum": "Sunday 29 November 2026",
-    "maan": "Afnemende maan (3 dagen na volle maan)",
-    "wemeldinge_tij": "20:45 uur -- Laagwater (LW)",
-    "stavenisse_tij": "20:40 uur -- Laagwater (LW)",
-    "wind": "Nog niet beschikbaar (>14 dagen vooruit)",
-    "zon": "08:23 uur op / 16:42 uur onder"
+    "maan": "3 dagen vóór Laatste Kwartier (halve maan); afnemende maan (ca. 81% verlicht, doodtijperiode)",
+    "wemeldinge_tij": "18:38 uur — Hoogwater (HW)",
+    "stavenisse_tij": "18:33 uur — Hoogwater (HW)",
+    "wind_oosterschelde": "Geen modelverwachting (>14 dagen vooruit)",
+    "weer_nijlen": "Geen modelverwachting (>14 dagen vooruit)",
+    "wind": "Geen modelverwachting (>14 dagen vooruit)",
+    "zon": "Zonsopgang: 08:23 uur / Zonsondergang: 16:42 uur"
   },
   "2026-11-30": {
     "datum": "Monday 30 November 2026",
-    "maan": "Afnemende maan (3 dagen na volle maan)",
-    "wemeldinge_tij": "20:45 uur -- Laagwater (LW)",
-    "stavenisse_tij": "20:40 uur -- Laagwater (LW)",
-    "wind": "Nog niet beschikbaar (>14 dagen vooruit)",
-    "zon": "08:25 uur op / 16:41 uur onder"
+    "maan": "2 dagen vóór Laatste Kwartier (halve maan); afnemende maan (ca. 72% verlicht, doodtijperiode)",
+    "wemeldinge_tij": "19:28 uur — Hoogwater (HW)",
+    "stavenisse_tij": "19:23 uur — Hoogwater (HW)",
+    "wind_oosterschelde": "Geen modelverwachting (>14 dagen vooruit)",
+    "weer_nijlen": "Geen modelverwachting (>14 dagen vooruit)",
+    "wind": "Geen modelverwachting (>14 dagen vooruit)",
+    "zon": "Zonsopgang: 08:25 uur / Zonsondergang: 16:41 uur"
   },
   "2026-12-01": {
     "datum": "Tuesday 01 December 2026",
-    "maan": "Afnemende maan (3 dagen na volle maan)",
-    "wemeldinge_tij": "20:45 uur -- Laagwater (LW)",
-    "stavenisse_tij": "20:40 uur -- Laagwater (LW)",
-    "wind": "Nog niet beschikbaar (>14 dagen vooruit)",
-    "zon": "08:26 uur op / 16:40 uur onder"
+    "maan": "1 dag vóór Laatste Kwartier (halve maan); afnemende maan (ca. 62% verlicht, doodtijperiode)",
+    "wemeldinge_tij": "20:18 uur — Hoogwater (HW)",
+    "stavenisse_tij": "20:13 uur — Hoogwater (HW)",
+    "wind_oosterschelde": "Geen modelverwachting (>14 dagen vooruit)",
+    "weer_nijlen": "Geen modelverwachting (>14 dagen vooruit)",
+    "wind": "Geen modelverwachting (>14 dagen vooruit)",
+    "zon": "Zonsopgang: 08:26 uur / Zonsondergang: 16:40 uur"
   },
   "2026-12-02": {
     "datum": "Wednesday 02 December 2026",
-    "maan": "Afnemende maan (3 dagen na volle maan)",
-    "wemeldinge_tij": "20:45 uur -- Laagwater (LW)",
-    "stavenisse_tij": "20:40 uur -- Laagwater (LW)",
-    "wind": "Nog niet beschikbaar (>14 dagen vooruit)",
-    "zon": "08:28 uur op / 16:40 uur onder"
+    "maan": "vandaag Laatste Kwartier (halve maan); afnemende maan (ca. 52% verlicht, doodtijperiode)",
+    "wemeldinge_tij": "21:08 uur — Hoogwater (HW)",
+    "stavenisse_tij": "21:03 uur — Hoogwater (HW)",
+    "wind_oosterschelde": "Geen modelverwachting (>14 dagen vooruit)",
+    "weer_nijlen": "Geen modelverwachting (>14 dagen vooruit)",
+    "wind": "Geen modelverwachting (>14 dagen vooruit)",
+    "zon": "Zonsopgang: 08:28 uur / Zonsondergang: 16:40 uur"
   },
   "2026-12-03": {
     "datum": "Thursday 03 December 2026",
-    "maan": "Afnemende maan (3 dagen na volle maan)",
-    "wemeldinge_tij": "20:45 uur -- Laagwater (LW)",
-    "stavenisse_tij": "20:40 uur -- Laagwater (LW)",
-    "wind": "Nog niet beschikbaar (>14 dagen vooruit)",
-    "zon": "08:29 uur op / 16:39 uur onder"
+    "maan": "1 dag na Laatste Kwartier (halve maan); afnemende maan (ca. 41% verlicht, doodtijperiode)",
+    "wemeldinge_tij": "21:58 uur — Hoogwater (HW)",
+    "stavenisse_tij": "21:53 uur — Hoogwater (HW)",
+    "wind_oosterschelde": "Geen modelverwachting (>14 dagen vooruit)",
+    "weer_nijlen": "Geen modelverwachting (>14 dagen vooruit)",
+    "wind": "Geen modelverwachting (>14 dagen vooruit)",
+    "zon": "Zonsopgang: 08:29 uur / Zonsondergang: 16:39 uur"
   }
 }
