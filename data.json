@@ -1,22 +1,12 @@
 {
-  "2026-11-08": {
-    "datum": "Sunday 08 November 2026",
-    "maan": "2 dagen vóór Nieuwe Maan; afnemende maan (ca. 4% verlicht, doodtijperiode)",
-    "wemeldinge_tij": "19:46 uur — Laagwater (LW)",
-    "stavenisse_tij": "19:41 uur — Laagwater (LW)",
-    "wind_oosterschelde": "ZZW, 3 Bft (ca. 9 knopen) — 9°C, 87% regen",
-    "weer_nijlen": "ZZW, 2 Bft (ca. 6 knopen) — 9°C, 63% regen",
-    "wind": "ZZW, 3 Bft (ca. 9 knopen) — 9°C, 87% regen",
-    "zon": "Zonsopgang: 07:49 uur / Zonsondergang: 17:07 uur"
-  },
   "2026-11-09": {
     "datum": "Monday 09 November 2026",
     "maan": "1 dag vóór Nieuwe Maan; afnemende maan (ca. 1% verlicht, doodtijperiode)",
     "wemeldinge_tij": "20:36 uur — Laagwater (LW)",
     "stavenisse_tij": "20:31 uur — Laagwater (LW)",
-    "wind_oosterschelde": "ZO, 3 Bft (ca. 7 knopen) — 10°C, 8% regen",
-    "weer_nijlen": "O, 2 Bft (ca. 4 knopen) — 10°C, 0% regen",
-    "wind": "ZO, 3 Bft (ca. 7 knopen) — 10°C, 8% regen",
+    "wind_oosterschelde": "ZO, 3 Bft (ca. 8 knopen) — 10°C, 3% regen",
+    "weer_nijlen": "O, 2 Bft (ca. 4 knopen) — 10°C, 1% regen",
+    "wind": "ZO, 3 Bft (ca. 8 knopen) — 10°C, 3% regen",
     "zon": "Zonsopgang: 07:51 uur / Zonsondergang: 17:05 uur"
   },
   "2026-11-10": {
@@ -24,9 +14,9 @@
     "maan": "vandaag Nieuwe Maan; afnemende maan (ca. 0% verlicht, doodtijperiode)",
     "wemeldinge_tij": "21:26 uur — Laagwater (LW)",
     "stavenisse_tij": "21:21 uur — Laagwater (LW)",
-    "wind_oosterschelde": "O, 4 Bft (ca. 12 knopen) — 9°C, 43% regen",
-    "weer_nijlen": "O, 3 Bft (ca. 7 knopen) — 10°C, 44% regen",
-    "wind": "O, 4 Bft (ca. 12 knopen) — 9°C, 43% regen",
+    "wind_oosterschelde": "O, 4 Bft (ca. 13 knopen) — 9°C, 69% regen",
+    "weer_nijlen": "ONO, 3 Bft (ca. 8 knopen) — 9°C, 67% regen",
+    "wind": "O, 4 Bft (ca. 13 knopen) — 9°C, 69% regen",
     "zon": "Zonsopgang: 07:53 uur / Zonsondergang: 17:03 uur"
   },
   "2026-11-11": {
@@ -34,9 +24,9 @@
     "maan": "1 dag na Nieuwe Maan; wassende maan (ca. 1% verlicht, springtijperiode)",
     "wemeldinge_tij": "22:16 uur — Laagwater (LW)",
     "stavenisse_tij": "22:11 uur — Laagwater (LW)",
-    "wind_oosterschelde": "OZO, 3 Bft (ca. 7 knopen) — 12°C, 67% regen",
-    "weer_nijlen": "ZZW, 2 Bft (ca. 5 knopen) — 13°C, 76% regen",
-    "wind": "OZO, 3 Bft (ca. 7 knopen) — 12°C, 67% regen",
+    "wind_oosterschelde": "NO, 3 Bft (ca. 10 knopen) — 8°C, 87% regen",
+    "weer_nijlen": "NNO, 2 Bft (ca. 5 knopen) — 7°C, 96% regen",
+    "wind": "NO, 3 Bft (ca. 10 knopen) — 8°C, 87% regen",
     "zon": "Zonsopgang: 07:55 uur / Zonsondergang: 17:02 uur"
   },
   "2026-11-12": {
@@ -44,9 +34,9 @@
     "maan": "2 dagen na Nieuwe Maan; wassende maan (ca. 4% verlicht, springtijperiode)",
     "wemeldinge_tij": "23:06 uur — Laagwater (LW)",
     "stavenisse_tij": "23:01 uur — Laagwater (LW)",
-    "wind_oosterschelde": "NO, 4 Bft (ca. 11 knopen) — 10°C, 43% regen",
-    "weer_nijlen": "NNO, 3 Bft (ca. 8 knopen) — 11°C, 39% regen",
-    "wind": "NO, 4 Bft (ca. 11 knopen) — 10°C, 43% regen",
+    "wind_oosterschelde": "NNO, 4 Bft (ca. 14 knopen) — 10°C, 7% regen",
+    "weer_nijlen": "NNO, 3 Bft (ca. 10 knopen) — 10°C, 10% regen",
+    "wind": "NNO, 4 Bft (ca. 14 knopen) — 10°C, 7% regen",
     "zon": "Zonsopgang: 07:56 uur / Zonsondergang: 17:00 uur"
   },
   "2026-11-13": {
@@ -54,9 +44,9 @@
     "maan": "3 dagen na Nieuwe Maan; wassende maan (ca. 10% verlicht, springtijperiode)",
     "wemeldinge_tij": "23:56 uur — Laagwater (LW)",
     "stavenisse_tij": "23:51 uur — Laagwater (LW)",
-    "wind_oosterschelde": "NO, 3 Bft (ca. 7 knopen) — 10°C, 16% regen",
-    "weer_nijlen": "NNO, 3 Bft (ca. 7 knopen) — 10°C, 6% regen",
-    "wind": "NO, 3 Bft (ca. 7 knopen) — 10°C, 16% regen",
+    "wind_oosterschelde": "NNW, 4 Bft (ca. 14 knopen) — 10°C, 37% regen",
+    "weer_nijlen": "NW, 3 Bft (ca. 10 knopen) — 10°C, 22% regen",
+    "wind": "NNW, 4 Bft (ca. 14 knopen) — 10°C, 37% regen",
     "zon": "Zonsopgang: 07:58 uur / Zonsondergang: 16:59 uur"
   },
   "2026-11-14": {
@@ -64,9 +54,9 @@
     "maan": "3 dagen vóór Eerste Kwartier (halve maan); wassende maan (ca. 17% verlicht, doodtijperiode)",
     "wemeldinge_tij": "18:33 uur — Hoogwater (HW)",
     "stavenisse_tij": "18:28 uur — Hoogwater (HW)",
-    "wind_oosterschelde": "O, 3 Bft (ca. 8 knopen) — 9°C, 3% regen",
-    "weer_nijlen": "O, 2 Bft (ca. 6 knopen) — 9°C, 2% regen",
-    "wind": "O, 3 Bft (ca. 8 knopen) — 9°C, 3% regen",
+    "wind_oosterschelde": "ZW, 3 Bft (ca. 7 knopen) — 9°C, 18% regen",
+    "weer_nijlen": "ZZW, 2 Bft (ca. 4 knopen) — 9°C, 3% regen",
+    "wind": "ZW, 3 Bft (ca. 7 knopen) — 9°C, 18% regen",
     "zon": "Zonsopgang: 08:00 uur / Zonsondergang: 16:58 uur"
   },
   "2026-11-15": {
@@ -74,9 +64,9 @@
     "maan": "2 dagen vóór Eerste Kwartier (halve maan); wassende maan (ca. 26% verlicht, doodtijperiode)",
     "wemeldinge_tij": "19:23 uur — Hoogwater (HW)",
     "stavenisse_tij": "19:18 uur — Hoogwater (HW)",
-    "wind_oosterschelde": "ZO, 3 Bft (ca. 10 knopen) — 10°C, 6% regen",
-    "weer_nijlen": "ZO, 3 Bft (ca. 7 knopen) — 10°C, 4% regen",
-    "wind": "ZO, 3 Bft (ca. 10 knopen) — 10°C, 6% regen",
+    "wind_oosterschelde": "Z, 5 Bft (ca. 19 knopen) — 11°C, 14% regen",
+    "weer_nijlen": "Z, 5 Bft (ca. 16 knopen) — 11°C, 10% regen",
+    "wind": "Z, 5 Bft (ca. 19 knopen) — 11°C, 14% regen",
     "zon": "Zonsopgang: 08:01 uur / Zonsondergang: 16:56 uur"
   },
   "2026-11-16": {
@@ -84,9 +74,9 @@
     "maan": "1 dag vóór Eerste Kwartier (halve maan); wassende maan (ca. 35% verlicht, doodtijperiode)",
     "wemeldinge_tij": "20:13 uur — Hoogwater (HW)",
     "stavenisse_tij": "20:08 uur — Hoogwater (HW)",
-    "wind_oosterschelde": "ZZO, 4 Bft (ca. 15 knopen) — 14°C, 50% regen",
-    "weer_nijlen": "ZZO, 3 Bft (ca. 10 knopen) — 15°C, 49% regen",
-    "wind": "ZZO, 4 Bft (ca. 15 knopen) — 14°C, 50% regen",
+    "wind_oosterschelde": "ZW, 5 Bft (ca. 18 knopen) — 11°C, 42% regen",
+    "weer_nijlen": "ZW, 5 Bft (ca. 16 knopen) — 11°C, 39% regen",
+    "wind": "ZW, 5 Bft (ca. 18 knopen) — 11°C, 42% regen",
     "zon": "Zonsopgang: 08:03 uur / Zonsondergang: 16:55 uur"
   },
   "2026-11-17": {
@@ -94,9 +84,9 @@
     "maan": "vandaag Eerste Kwartier (halve maan); wassende maan (ca. 46% verlicht, doodtijperiode)",
     "wemeldinge_tij": "21:03 uur — Hoogwater (HW)",
     "stavenisse_tij": "20:58 uur — Hoogwater (HW)",
-    "wind_oosterschelde": "ZZW, 4 Bft (ca. 11 knopen) — 14°C, 57% regen",
-    "weer_nijlen": "ZZW, 3 Bft (ca. 8 knopen) — 14°C, 59% regen",
-    "wind": "ZZW, 4 Bft (ca. 11 knopen) — 14°C, 57% regen",
+    "wind_oosterschelde": "ZW, 6 Bft (ca. 24 knopen) — 16°C, 41% regen",
+    "weer_nijlen": "ZW, 5 Bft (ca. 16 knopen) — 16°C, 39% regen",
+    "wind": "ZW, 6 Bft (ca. 24 knopen) — 16°C, 41% regen",
     "zon": "Zonsopgang: 08:05 uur / Zonsondergang: 16:54 uur"
   },
   "2026-11-18": {
@@ -104,9 +94,9 @@
     "maan": "1 dag na Eerste Kwartier (halve maan); wassende maan (ca. 56% verlicht, doodtijperiode)",
     "wemeldinge_tij": "21:53 uur — Hoogwater (HW)",
     "stavenisse_tij": "21:48 uur — Hoogwater (HW)",
-    "wind_oosterschelde": "ZZO, 3 Bft (ca. 8 knopen) — 10°C, 49% regen",
-    "weer_nijlen": "Z, 2 Bft (ca. 5 knopen) — 10°C, 47% regen",
-    "wind": "ZZO, 3 Bft (ca. 8 knopen) — 10°C, 49% regen",
+    "wind_oosterschelde": "WZW, 5 Bft (ca. 20 knopen) — 14°C, 45% regen",
+    "weer_nijlen": "ZW, 4 Bft (ca. 15 knopen) — 14°C, 50% regen",
+    "wind": "WZW, 5 Bft (ca. 20 knopen) — 14°C, 45% regen",
     "zon": "Zonsopgang: 08:06 uur / Zonsondergang: 16:52 uur"
   },
   "2026-11-19": {
@@ -114,9 +104,9 @@
     "maan": "2 dagen na Eerste Kwartier (halve maan); wassende maan (ca. 67% verlicht, doodtijperiode)",
     "wemeldinge_tij": "22:43 uur — Hoogwater (HW)",
     "stavenisse_tij": "22:38 uur — Hoogwater (HW)",
-    "wind_oosterschelde": "ZO, 4 Bft (ca. 11 knopen) — 8°C, 43% regen",
-    "weer_nijlen": "ZO, 3 Bft (ca. 8 knopen) — 10°C, 37% regen",
-    "wind": "ZO, 4 Bft (ca. 11 knopen) — 8°C, 43% regen",
+    "wind_oosterschelde": "ZW, 4 Bft (ca. 15 knopen) — 15°C, 58% regen",
+    "weer_nijlen": "ZW, 4 Bft (ca. 12 knopen) — 16°C, 57% regen",
+    "wind": "ZW, 4 Bft (ca. 15 knopen) — 15°C, 58% regen",
     "zon": "Zonsopgang: 08:08 uur / Zonsondergang: 16:51 uur"
   },
   "2026-11-20": {
@@ -124,9 +114,9 @@
     "maan": "3 dagen na Eerste Kwartier (halve maan); wassende maan (ca. 76% verlicht, doodtijperiode)",
     "wemeldinge_tij": "23:33 uur — Hoogwater (HW)",
     "stavenisse_tij": "23:28 uur — Hoogwater (HW)",
-    "wind_oosterschelde": "ZZW, 4 Bft (ca. 12 knopen) — 9°C, 47% regen",
-    "weer_nijlen": "ZZW, 3 Bft (ca. 9 knopen) — 11°C, 49% regen",
-    "wind": "ZZW, 4 Bft (ca. 12 knopen) — 9°C, 47% regen",
+    "wind_oosterschelde": "ZW, 4 Bft (ca. 14 knopen) — 13°C, 57% regen",
+    "weer_nijlen": "ZW, 3 Bft (ca. 10 knopen) — 13°C, 53% regen",
+    "wind": "ZW, 4 Bft (ca. 14 knopen) — 13°C, 57% regen",
     "zon": "Zonsopgang: 08:10 uur / Zonsondergang: 16:50 uur"
   },
   "2026-11-21": {
@@ -134,9 +124,9 @@
     "maan": "4 dagen na Eerste Kwartier (halve maan); wassende maan (ca. 85% verlicht, doodtijperiode)",
     "wemeldinge_tij": "18:11 uur — Laagwater (LW)",
     "stavenisse_tij": "18:06 uur — Laagwater (LW)",
-    "wind_oosterschelde": "W, 4 Bft (ca. 14 knopen) — 10°C, 44% regen",
-    "weer_nijlen": "WZW, 3 Bft (ca. 10 knopen) — 9°C, 37% regen",
-    "wind": "W, 4 Bft (ca. 14 knopen) — 10°C, 44% regen",
+    "wind_oosterschelde": "WZW, 3 Bft (ca. 7 knopen) — 11°C, 47% regen",
+    "weer_nijlen": "WZW, 2 Bft (ca. 4 knopen) — 11°C, 40% regen",
+    "wind": "WZW, 3 Bft (ca. 7 knopen) — 11°C, 47% regen",
     "zon": "Zonsopgang: 08:11 uur / Zonsondergang: 16:49 uur"
   },
   "2026-11-22": {
@@ -144,9 +134,9 @@
     "maan": "3 dagen vóór Volle Maan; wassende maan (ca. 92% verlicht, springtijperiode)",
     "wemeldinge_tij": "19:01 uur — Laagwater (LW)",
     "stavenisse_tij": "18:56 uur — Laagwater (LW)",
-    "wind_oosterschelde": "Geen modelverwachting (>14 dagen vooruit)",
-    "weer_nijlen": "Geen modelverwachting (>14 dagen vooruit)",
-    "wind": "Geen modelverwachting (>14 dagen vooruit)",
+    "wind_oosterschelde": "ZZO, 3 Bft (ca. 8 knopen) — 9°C, 37% regen",
+    "weer_nijlen": "ZO, 2 Bft (ca. 5 knopen) — 9°C, 35% regen",
+    "wind": "ZZO, 3 Bft (ca. 8 knopen) — 9°C, 37% regen",
     "zon": "Zonsopgang: 08:13 uur / Zonsondergang: 16:48 uur"
   },
   "2026-11-23": {
@@ -348,5 +338,15 @@
     "weer_nijlen": "Geen modelverwachting (>14 dagen vooruit)",
     "wind": "Geen modelverwachting (>14 dagen vooruit)",
     "zon": "Zonsopgang: 08:39 uur / Zonsondergang: 16:36 uur"
+  },
+  "2026-12-13": {
+    "datum": "Sunday 13 December 2026",
+    "maan": "3 dagen na Nieuwe Maan; wassende maan (ca. 13% verlicht, springtijperiode)",
+    "wemeldinge_tij": "17:53 uur — Hoogwater (HW)",
+    "stavenisse_tij": "17:48 uur — Hoogwater (HW)",
+    "wind_oosterschelde": "Geen modelverwachting (>14 dagen vooruit)",
+    "weer_nijlen": "Geen modelverwachting (>14 dagen vooruit)",
+    "wind": "Geen modelverwachting (>14 dagen vooruit)",
+    "zon": "Zonsopgang: 08:40 uur / Zonsondergang: 16:36 uur"
   }
 }
